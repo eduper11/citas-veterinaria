@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import uuid from 'uuid';
+import PropTypes from 'prop-types';
+
 
 const initialState = {
     cita: {
@@ -156,6 +158,10 @@ class NuevaCita extends Component {
             </div>
         );
     }
+}
+
+NuevaCita.propTypes = {
+    createNewDate = PropTypes.func.isRequired
 }
 
 export default NuevaCita;

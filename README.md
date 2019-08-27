@@ -6,6 +6,10 @@ Comenzando con React
 
 Sencilla app para crear y borrar citas de veterinaria (en localStorage)
 
+### 'Documentado'
+
+PropType nativo React
+
 ### 'CSS'
 
 Bootstrap (bootrap.min.css)

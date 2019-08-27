@@ -50,7 +50,7 @@ class App extends Component {
     render() {
         return (
             <div className='container'>
-                <Header titulo='Administrador pacientes veterinaria' />
+                <Header titulo='Administrador citas para veterinaria' />
                 <div className='row'>
                     <div className='col-md-10 mx-auto'>
                         <NuevaCita createNewDate={this.createNewDate} />
